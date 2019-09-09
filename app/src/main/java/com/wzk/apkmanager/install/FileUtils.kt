@@ -8,7 +8,7 @@ import com.wzk.apkmanager.BaseApplication
 import java.io.File
 
 object FileUtils {
-    val TAG = "FileUtils>>>"
+    private const val TAG = "FileUtils>>>"
 
     private val mContext by lazy {
         BaseApplication.application.baseContext
